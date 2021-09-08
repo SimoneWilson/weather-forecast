@@ -1,0 +1,30 @@
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+div {
+  margin: 5px auto;
+}
+.App {
+  text-align: center;
+}
+.row {
+  justify-content: center;
+  margin: 18px auto;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .row {
+    margin: 15px auto;
+  }
+}
